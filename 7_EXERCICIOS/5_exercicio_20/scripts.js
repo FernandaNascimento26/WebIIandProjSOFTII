@@ -1,3 +1,4 @@
+let idade = prompt("idade");
 function podeEntrarNaAuto(idade) {
 
   if(idade >= 18) {
@@ -12,6 +13,8 @@ function podeEntrarNaAuto(idade) {
 
 }
 
+
+podeEntrarNaAuto(idade);
 podeEntrarNaAuto(16);
 podeEntrarNaAuto(25);
 podeEntrarNaAuto(17);
